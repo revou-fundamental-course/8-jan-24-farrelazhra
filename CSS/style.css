@@ -1,0 +1,135 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Tambahkan overflow: hidden untuk menghindari scroll di seluruh container */
+}
+
+/* Header */
+header h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.5em; /* Mengubah ukuran teks menjadi 1.5em */
+}
+
+/* Picture */
+.picture {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Input Section */
+.inputSection {
+    margin-bottom: 20px;
+}
+
+#squareSide {
+    margin-top: 10px;
+    outline: none;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Button */
+.button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#countButton,
+#ResetButton {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+#countButton:hover,
+#ResetButton:hover {
+    background-color: #27ae60;
+}
+
+#countButton:active,
+#ResetButton:active {
+    background-color: #1d8348;
+    transform: translateY(3px);
+}
+
+/* Reset Button */
+#ResetButton {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+#ResetButton:hover {
+    background-color: #c0392b;
+}
+
+#ResetButton:active {
+    background-color: #992d22;
+    transform: translateY(3px);
+}
+
+/* Output Section */
+#output {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    background-color: #ecf0f1;
+    color: #34495e;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #7f8c8d;
+}
+
+footer p {
+    margin: 0;
+}
